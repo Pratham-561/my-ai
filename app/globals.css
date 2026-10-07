@@ -24,3 +24,52 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+/* My AI Light Mode */
+
+html.light body {
+  background: #ffffff;
+  color: #111827;
+}
+
+html.light .bg-\[\#0b0f17\] {
+  background: #ffffff;
+}
+
+html.light .bg-\[\#0f1420\] {
+  background: #f7f7f8;
+}
+
+html.light .bg-\[\#151b27\] {
+  background: #ffffff;
+}
+
+html.light .bg-\[\#111827\] {
+  background: #f3f4f6;
+}
+
+html.light .text-white {
+  color: #111827;
+}
+
+html.light .text-gray-100,
+html.light .text-gray-200,
+html.light .text-gray-300 {
+  color: #374151;
+}
+
+html.light .text-gray-400,
+html.light .text-gray-500 {
+  color: #6b7280;
+}
+
+html.light .border-\[\#2f2f2f\] {
+  border-color: #e5e7eb;
+}
